@@ -1,0 +1,37 @@
+.container {
+	width: 700px;
+	margin: 80px auto;
+	padding: 20px 20px;
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px;
+	}	
+}		
+
+@media (min-width: 601px) and (max-width: 760px) {
+	.container {
+		width: 600px;
+	}	
+}
+
+#intro h1{
+	color: darkred;
+}
+
+#intro{
+	padding: 20px 0px;
+}
+#first {
+	text-align: center;
+	padding: 30px 0px;
+}
+
+#first h2{
+	color: darkred;
+}
+
+#second{
+	padding: 20px 0px;
+}
